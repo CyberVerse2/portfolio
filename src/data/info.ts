@@ -69,7 +69,7 @@ export const info = {
       tools: ['Express', 'PostgresSQL', 'Typescript', 'Bloc'],
       isFeatured: true,
       thumbnail:
-        'https://res.cloudinary.com/dbuaprzc0/image/upload/v1706390070/fvf9o20sl4zelltf6uks.png',
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1706390070/fvf9o20sl4zelltf6uks.png',
       githubUrl: 'https://github.com/Cyberverse2/reefa-backend',
       liveUrl: 'https://reefa.webflow.io'
     },
@@ -80,7 +80,7 @@ export const info = {
       tools: ['Express', 'MongoDB', 'Javascript', 'Docker', 'S3', 'Nabla'],
       isFeatured: true,
       thumbnail:
-        'https://res.cloudinary.com/dbuaprzc0/image/upload/v1706390059/a7ouifsurgyu00tltylq.png',
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1706390059/a7ouifsurgyu00tltylq.png',
       liveUrl: 'https://mydms.bio'
     }
   ]
