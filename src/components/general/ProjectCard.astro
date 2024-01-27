@@ -1,16 +1,16 @@
 ---
 import { IProjectDetails } from "@types";
 const { projectDetail } = Astro.props as IProjectDetails;
-const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
+const { title, thumbnail, liveUrl, githubUrl, description, tools } = projectDetail;
 ---
 
 <article class="w-full max-h-[25rem] overflow-hidden relative group">
-  <div class="flex items-center absolute right-4 top-4 z-10">
+  <div class="flex items-center absolute right-2 top-2 lg:right-2 lg:top-4 z-10">
     {
       githubUrl && (
         <a
           href={githubUrl}
-          class="text-white p-3 bg-black/50 rounded-full backdrop-blur-md"
+          class="text-white p-2 lg:p-3 bg-black/50 rounded-full backdrop-blur-md"
           aria-label="Social Media"
           target="_blank"
         >
@@ -24,7 +24,7 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="feather feather-github"
+            class="feather feather-github lg:w-5 lg:h-5 w-3.5 h-3.5"
           >
             <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
           </svg>
@@ -36,7 +36,7 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
       liveUrl && (
         <a
           href={liveUrl}
-          class="text-white p-3 bg-black/50 rounded-full backdrop-blur-md ml-1"
+          class="text-white p-2 lg:p-3 bg-black/50 rounded-full backdrop-blur-md ml-1"
           aria-label="Social Media"
           target="_blank"
         >
@@ -50,7 +50,7 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="feather feather-link-2"
+            class="feather feather-link-2 lg:w-5 lg:h-5 w-4 h-4"
           >
             <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3" />
             <line x1="8" y1="12" x2="16" y2="12" />
@@ -65,7 +65,7 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
   >
     <img
     src={thumbnail}
-    class="w-full h-auto scale-100 hover:scale-110 transition duration-[1.5s]"
+    class="w-full h-auto scale-100 hover:scale-110 lg:transition lg:duration-[1.5s]"
     loading="lazy"
     width="100%"
     height="100%"
@@ -73,8 +73,14 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
   />
   </a>
   <div
-    class="absolute w-full bottom-0 left-0 backdrop-blur-md dark:text-white text-white bg-black/50 p-4 translate-y-[100%] group-hover:translate-y-0 transition duration-700"
+    class="absolute w-full bottom-0 left-0 h-full lg:h-3/5 flex flex-col justify-between backdrop-blur-md dark:text-white text-white bg-black/50 p-4 lg:translate-y-[100%] lg:group-hover:translate-y-0 lg:transition duration-700"
   >
     <h3 class="mr-2 text-xl">{title}</h3>
+    <p class="pt-1 lg:pt-2 text-sm lg:text-md  dark:text-white text-white">{description}</p>
+    <div class="">
+      {tools.map((tool, index) => (
+      <p class={`inline text-xs lg:text-sm pr-2 ${index === 0 ? 'pl-0' : ''} text-blue`}>{tool}</p>
+    ))}
+    </div>
   </div>
 </article>

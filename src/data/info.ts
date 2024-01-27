@@ -1,97 +1,87 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  baseUrl: 'chinaza.vercel.app',
+  name: 'Ejiofor Celestine',
+  jobDescription: 'Backend Engineer',
+  about: `I'm a Backend Engineer based in Enugu, Nigeria.
+   I enjoy building applications that solves real-world problems and are of value to people and buisnesses.
+   I have been working for 2 years, with experience in NodeJS, Express, Nestjs, Typescript, MongoDB, MySQL, PostgresSQL and GraphQL.
+   With time, I have also gained knowledge of cloud services like Microsoft Azure and Amazon Web Services, frontend frameworks like ReactJS, TailwindCSS and languages like Python.
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: 'DMS',
+      location: 'Lagos, Nigeria',
+      startDate: '0ct 2023',
+      endDate: 'Present',
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
+        '· Using the module design pattern, I refactor the codebase, removing redundant functions and writing efficient code leading to a removal of 600 lines compared to the previous codebase.',
+        '· Integrate the Nabla API, which allows doctors to generate clinical notes in real time during patient consultations, allowing us to land more clients and stand out from our competitors',
+        '· Create a CI/CD workflow with GitHub Actions to run unit tests on the API before deployment which reduced frequent downtimes and customer complaints by 70%, which earned me a salary bonus.',
+        '· Document the API endpoints with Postman to enable easier integration with the frontend, saving hours of zoom meetings.'
+      ]
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: 'Paatee',
+      location: 'Lagos, Nigeria',
+      startDate: 'Sept 2023',
+      endDate: 'Nov 2023',
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
-      ],
-    },
+        '- Outlined the project requirements and created a design plan for the company’s backend.',
+        '- Built a robust authentication system for the E-commerce App, which allowed us to save costs on third party authentication services.',
+        '- Implemented the API leveraging GraphQL schema, resulting in a 30% reduction in development time.',
+        '- Contributed to the documentation of endpoints and processes for easier integration and future reference.'
+      ]
+    }
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
-      description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
-      ],
+      name: 'University of Nigeria, Nsukka',
+      location: 'Nsukka, Enugu, Nigeria',
+      startDate: '2023',
+      endDate: 'Present',
+      description: ['Bsc. Computer Science']
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
+      name: 'Future Academy Africa',
+      location: 'Lagos, Nigeria',
+      startDate: 'June 2023',
+      endDate: 'August 2023',
+      description: ['Backend Development']
+    }
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    twitter: 'https://twitter.com/TheCyberverse1',
+    github: 'https://github.com/Cyberverse2',
+    email: 'mailto:ejioforcelestine77@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/ejiofor-celestine-740b90251/',
+    reddit: 'https://www.reddit.com/u/ejioforcelestine77'
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: 'Reefa',
+      description:
+        'Reefa is a marketing app that helps sellers promote their products using campaigns eg Giveaways and rewards referrers with cash or discounts',
+      tools: ['Express', 'PostgresSQL', 'Typescript', 'Bloc'],
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail:
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/v1706390070/fvf9o20sl4zelltf6uks.png',
+      githubUrl: 'https://github.com/Cyberverse2/reefa-backend',
+      liveUrl: 'https://reefa.webflow.io'
     },
-  ],
+    {
+      title: 'DMS',
+      description:
+        'DMS is a hospital management system that allows hospitals to digitally manage patients, appointments, doctors, labs results, pharmacy drugs and invoices.',
+      tools: ['Express', 'MongoDB', 'Javascript', 'Docker', 'S3', 'Nabla'],
+      isFeatured: true,
+      thumbnail:
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/v1706390059/a7ouifsurgyu00tltylq.png',
+      liveUrl: 'https://mydms.bio'
+    }
+  ]
 };
