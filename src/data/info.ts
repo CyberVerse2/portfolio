@@ -82,6 +82,17 @@ export const info = {
       thumbnail:
         'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1706390059/a7ouifsurgyu00tltylq.png',
       liveUrl: 'https://mydms.bio'
+    },
+    {
+      title: 'Squid',
+      description:
+        ' It provides a unified environment where developers can collaborate, discuss code, manage GitHub issues, and streamline development workflows in real time. ',
+      tools: ['React', 'JTypescript', 'Convex'],
+      isFeatured: true,
+      thumbnail:
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1711452676/ymgyufkv8rg73r5itbn7.png',
+      liveUrl: 'https://squid-seven.vercel.app',
+      githubUrl: 'https://github.com/Cyberverse2/squid'
     }
   ]
 };
