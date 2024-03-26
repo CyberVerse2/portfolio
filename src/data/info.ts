@@ -87,10 +87,10 @@ export const info = {
       title: 'Squid',
       description:
         ' It provides a unified environment where developers can collaborate, discuss code, manage GitHub issues, and streamline development workflows in real time. ',
-      tools: ['React', 'JTypescript', 'Convex'],
+      tools: ['React', 'Typescript', 'Convex'],
       isFeatured: true,
       thumbnail:
-        'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1711452676/ymgyufkv8rg73r5itbn7.png',
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1711453957/zdan6zvs2tp9xy7noneb.png',
       liveUrl: 'https://squid-seven.vercel.app',
       githubUrl: 'https://github.com/Cyberverse2/squid'
     }
