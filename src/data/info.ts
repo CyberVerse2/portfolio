@@ -5,7 +5,7 @@ export const info = {
   about: `I'm a Backend Engineer based in Enugu, Nigeria.
    I enjoy building applications that solves real-world problems and are of value to people and buisnesses.
    I have been working for 2 years, with experience in NodeJS, Express, Nestjs, Typescript, MongoDB, MySQL, PostgresSQL and GraphQL.
-   With time, I have also gained knowledge of cloud services like Microsoft Azure and Amazon Web Services, frontend frameworks like ReactJS, TailwindCSS and languages like Python.
+   With time, I have also gained knowledge of cloud services like Microsoft Azure, Amazon Web Services and Google Cloud, frontend frameworks like ReactJS, TailwindCSS and languages like Python. I also enjoy building AI projects that use LLMs like "Gemini" and "GPT-3.5" to solve problems in a unique way.
   `,
 
   experience: [
