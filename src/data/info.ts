@@ -10,10 +10,33 @@ export const info = {
 
   experience: [
     {
+      name: 'Syx Labs',
+      location: 'Lagos, Nigeria',
+      startDate: 'June 2023',
+      endDate: 'Present',
+      description: [
+        '· I created the backend API for a client application, which allowed the client to sell fashion products online, increasing their revenue by 30%.',
+        '· I integrated Stripe payment gateway to the client application, which allowed the client to receive payments from customers in different countries, increasing their customer base by 50%.',
+        '· I added APIToolkit to monitor the api requests, which helped me detect endpoints that were slow and endpoints with high error rate, which helped me optimize the endpoints and reduce the error rate by 70%.',
+        '· Document the API endpoints with Postman to enable easier integration with the frontend, saving hours of zoom meetings.'
+      ]
+    },
+    {
+      name: 'Charisol',
+      location: 'Lagos, Nigeria',
+      startDate: 'Feb 2023',
+      endDate: 'May 2023',
+      description: [
+        '· I fixed an error that made the Muzingo app unusable and crash when creating games',
+        '· I iadded linting and precommit hooks to the frontend and backend codebase, making sure that the codebase is clean and consistent',
+        '· I integrated analytics to the Muzingo app using Segment and Google Analytics, which helped the company understand user behavior and make data-driven decisions'
+      ]
+    },
+    {
       name: 'DMS',
       location: 'Lagos, Nigeria',
       startDate: '0ct 2023',
-      endDate: 'Present',
+      endDate: 'March 2024',
       description: [
         '· Using the module design pattern, I refactor the codebase, removing redundant functions and writing efficient code leading to a removal of 600 lines compared to the previous codebase.',
         '· Integrate the Nabla API, which allows doctors to generate clinical notes in real time during patient consultations, allowing us to land more clients and stand out from our competitors',
@@ -63,11 +86,22 @@ export const info = {
 
   projects: [
     {
+      title: 'Medix',
+      description:
+        'Medix is a platform that allows medical doctors to record patient information, generate clinical notes, and manage appointments. It also allows patients to book appointments and receive prescriptions.',
+      tools: ['Nestjs', 'MongoDB', 'Typescript', 'VertexAI', 'Google Cloud Storage'],
+      isFeatured: true,
+      thumbnail:
+        'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/kdwh5uxrryufjqwpjzlh',
+      githubUrl: 'https://github.com/MedixApp1/medix-backend',
+      liveUrl: 'https://medix-frontend.netlify.app'
+    },
+    {
       title: 'Reefa',
       description:
         'Reefa is a marketing app that helps sellers promote their products using campaigns eg Giveaways and rewards referrers with cash or discounts',
       tools: ['Express', 'PostgresSQL', 'Typescript', 'Bloc'],
-      isFeatured: true,
+      isFeatured: false,
       thumbnail:
         'https://res.cloudinary.com/dbuaprzc0/image/upload/f_auto,q_auto/v1706390070/fvf9o20sl4zelltf6uks.png',
       githubUrl: 'https://github.com/Cyberverse2/reefa-backend',
